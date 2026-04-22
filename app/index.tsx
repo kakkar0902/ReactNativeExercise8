@@ -1,8 +1,14 @@
 import { Text, View } from "react-native";
+import List from "./List";
+import Detail from "./Detail";
+
 
 export default function Index() {
-  return (
-    <View
+  return <Detail />;
+}
+
+/*
+ <View
       style={{
         flex: 1,
         justifyContent: "center",
@@ -11,5 +17,6 @@ export default function Index() {
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
     </View>
-  );
-}
+    */
+  
+
